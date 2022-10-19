@@ -1,4 +1,4 @@
-"""ProyectoCoder URL Configuration
+"""my_family URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.1/topics/http/urls/
@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.views import create_course
+from App.views import create_relative
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('create_course/<str:name>/<int:code>', create_course)
+    path('relative/<str:name>/<int:age>/<str:birthday>/<str:relation_ship>/', create_relative)
 ]
