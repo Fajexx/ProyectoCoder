@@ -56,7 +56,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            '/Users/fabri/Desktop/proyectos-python/my_family/templates'
+            '/Users/fabri/Desktop/proyectos-python/MTV Fabricio Jerez/App/templates/App/relatives_list.html'
         ],
         'APP_DIRS': True,
         'OPTIONS': {
